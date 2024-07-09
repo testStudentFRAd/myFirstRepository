@@ -1,4 +1,4 @@
-package edu.fra.uas.hello.controller;
+package edu.fra.uas.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,6 +13,6 @@ public class HelloWorldController {
     @ResponseBody
     public String getHelloWorld() {
         return "<h1>Hello World Spring Boot!</h1>";
-    }    
+    }
 
 }
